@@ -1,4 +1,4 @@
-// [2438] 별 찍기 - 1 별을 찍는 문제 1
+// [2438] 별 찍기 - 1
 #include<stdio.h>
 int main(void)
 {
