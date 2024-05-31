@@ -1,4 +1,4 @@
-//A+B 20240601
+//1000. A+B 20240601
 #include<stdio.h>
 
 int main()
