@@ -1,4 +1,4 @@
-//11720, ¼ıÀÚÀÇ ÇÕ 20240611
+//11720, ìˆ«ìì˜ í•© 20240611
 #include<stdio.h>
 #include<stdlib.h>
 int main()
