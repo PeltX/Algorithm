@@ -1,4 +1,4 @@
-//1546, Æò±Õ 20240609
+//1546, í‰ê·  20240609
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -15,7 +15,7 @@ int main()
 	for (i = 0; i < N; i++)
 	{
 		scanf("%d", &score[i]);
-		M = (score[i] > M) ? score[i] : M; // ÃÖ´ñ°ª
+		M = (score[i] > M) ? score[i] : M; // ÃƒÃ–Â´Ã±Â°Âª
 		sum += score[i];
 	}
 	nsum = (double)sum / M * 100;
