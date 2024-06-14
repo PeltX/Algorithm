@@ -30,7 +30,7 @@ int main()
 			else
 				printf("**");
 		}
-		if (i != N - 2) //¸¶Áö¸· °³Çà Á¦°Å
+		if (i != N - 2) //마지막 개행 제거
 			printf("\n");
 	}	
 }
