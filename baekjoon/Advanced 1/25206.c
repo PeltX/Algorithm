@@ -1,3 +1,4 @@
+//25206, 너의 평점은 20240618
 #include<stdio.h>
 int main()
 {
