@@ -50,8 +50,8 @@ int main()
 							}
 						}
 					}
-					gcnt++;
 					tmp[word[j] - 'a']++; //저장소에 값 추가
+					gcnt++;
 				}
 			}
 		}
