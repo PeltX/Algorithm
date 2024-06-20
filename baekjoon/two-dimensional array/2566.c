@@ -1,8 +1,8 @@
-//2566, ÃÖ´ñ°ª 20240619
+//2566, ìµœëŒ“ê°’ 20240619
 #include<stdio.h>
 int main()
 {
-	int arr[9][9], i, j, max=-1, a, b; // aÇà, b¿­
+	int arr[9][9], i, j, max=-1, a, b; // aí–‰, bì—´
 
 	for (i = 0; i < 9; i++)
 	{
