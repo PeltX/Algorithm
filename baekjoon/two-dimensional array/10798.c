@@ -1,4 +1,4 @@
-//10798, 세로읽기 20240620
+//10798, 세로 읽기 20240620
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -23,3 +23,4 @@ int main()
 		}
 	}
 }
+//mlen을 반드시 구할 필요는 없다.
