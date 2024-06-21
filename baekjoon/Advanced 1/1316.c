@@ -13,7 +13,7 @@ int main()
 		//문자열 입력 및 길이 세팅, gcnt 초기화
 		scanf("%s", word); 
 		len = strlen(word);
-		gcnt = 0;
+		gcnt = 0; //word의 길이와 동일할 경우 그룹문자
 
 		//저장소 배열의 값 초기화
 		for (j = 0; j < 26; j++)
@@ -31,24 +31,16 @@ int main()
 			{
 				//앞 문자와 동일한 경우
 				if (word[j] == word[j - 1])
-				{
-					tmp[word[j] - 'a']++; //저장소에 값 추가
 					gcnt++;
-				}
+				
 
 				//앞 문자와 동일하지 않은 경우
 				if (word[j] != word[j - 1])
 				{
-					for (k = 0; k < 26; k++)
+					if (tmp[word[j]-'a'] > 0) //저장소에 있는 문자와 겹치는지 판단. 이 경우 그룹문자가 아니다.
 					{
-						if (tmp[k] > 0)
-						{
-							if (word[j] == (k + 'a')) //저장소에 있는 문자와 겹치는지 판단. 이 경우 그룹문자가 아니다.
-							{
-								gcnt--;
-								break;
-							}
-						}
+						gcnt--;
+						break;
 					}
 					tmp[word[j] - 'a']++; //저장소에 값 추가
 					gcnt++;
