@@ -10,13 +10,13 @@ int main()
 {
 	int N;
 
-	scanf("%d", &N);
+	cin >> N;
 
 	for (int i = 0; i < N; i++)
-		scanf("%d", &arr[i]);
+		cin >> arr[i];
 
 	sort(arr, arr + N);
 
 	for (int i = 0; i < N; i++)
-		printf("%d\n", arr[i]);
+		cout << arr[i] << '\n';
 }
