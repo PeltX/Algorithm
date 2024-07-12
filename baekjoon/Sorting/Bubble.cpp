@@ -1,4 +1,4 @@
-//Bubble Sort, ¹öºíÁ¤·Ä
+//Bubble Sort, ë²„ë¸” ì •ë ¬
 #include<iostream>
 
 using namespace std;
